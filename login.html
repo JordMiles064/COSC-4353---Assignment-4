@@ -1,0 +1,28 @@
+<DOCTYPE HTML>
+    <html>
+        <header>
+            <script src="signup.js"></script>
+            <link rel="stylesheet" href="login.css">
+        </header>
+    
+        <body>
+            <div id="formBox">
+                <h1 id="formHeader">Login</h1>
+                <form id="loginForm" action="mainmenu.html">
+                    <form method="post" action="connect.php">
+                    <p>
+                        <label id="formLabelUsername" class="formLabel" for="formFieldUsername">Username:</label>
+                        <input type="text" id="formFieldUsername" class="formField" name="username" placeholder="" ><br><br>
+                    </p>
+                    <p>
+                        <label id="formLabelPass" class="formLabel" for="formFieldPass">Password:</label>
+                        <input type="password" id="formFieldPass" class="formField" name="password" placeholder="" ><br><br>
+                    </p>
+                    <p>
+                        <input type="submit" value="Login" id="loginButton" name="loginButton">
+                        <label id="signupText">Don't have an account? <a href="signup.html">Sign up</a></label>
+                    </p>
+                </form>
+            <div>
+        </body>
+    </html>
